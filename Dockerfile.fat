@@ -1,0 +1,7 @@
+# new image
+bazel build ...
+COPY dir:7f94509a337e0cb996c55cdd172323038a349d02292cf7aaf6bf0123edbae206 in / 
+ VOLUME [/data]
+WORKDIR /data
+ ENTRYPOINT ["redis-server"]
+# end of image: kyos0109/redis-distroless (id: sha256:7f5210d0ec76444b3daf2798ddcbcfacda4bb4e4c78b5cdda21dd776f5212e88 tags: latest)
